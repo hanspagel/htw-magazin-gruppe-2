@@ -1,6 +1,8 @@
-body {
-  /*font-family: "DinPro",sans-serif;*/
+html {
   font-family: 'Vollkorn', serif;
+}
+
+body {
   line-height: 1.8;
   font-size: 20px;
   font-weight: 300;
@@ -14,6 +16,11 @@ body {
   text-rendering: optimizeLegibility;
   }
 
+.center {
+  left: auto;
+  right: auto;
+  text-align: center;
+}
 
  .text-center {
     text-align: center;
@@ -40,41 +47,105 @@ body {
       text-align: left;
     }
 
+  .blog-text:first-of-type p:first-of-type {
+    font-size: 1.4em;
+    line-height: 1.2;
+    color: #000;
+  }
 
-      h1 {
-      color: #355115;
-      font-size: 60px;
-      font-weight: lighter;
-      line-height: 100px;
-      letter-spacing: 5px;
-      }
+  h1 {
+  color: #355115;
+  font-size: 60px;
+  font-weight: lighter;
+  line-height: 100px;
+  letter-spacing: 5px;
+  }
 
-     h2 {
-       font-family: Lato, sans-serif;
-       color: lightgrey;
-       font-size: 15px;
-       font-weight: lighter;
-     }
+ h2 {
+   font-family: Lato, sans-serif;
+   color: lightgrey;
+   font-size: 15px;
+   font-weight: lighter;
+ }
 
-     h3 {
-       color: #3D3D3D;
-       font-size: 30px;
-       font-weight: lighter;
-     }
+ h3 {
+   color: #000;
+   font-size: 25px;
+   font-weight: lighter;
+   text-align: left;
+    }
 
-.blog-text {
-  text-align: center;
-  padding-left: 150px;
-  padding-right: 150px;
+  .spacer120 {
+    padding: 60px;
+  }
 
-}
+  .blog-text {
+    text-align: center;
+    padding-left: 300px;
+    padding-right: 300px;
 
-.blog-image {
-  width: 800px;
-  padding: 50px;
-  height: auto;
-}
+  }
 
-.header-img-rechts {
-  margin-top: -850px;
-}
+  .blog-image {
+    width: 800px;
+    padding: 50px;
+    height: auto;
+  }
+
+  .header-img-rechts {
+    margin-top: -850px;
+  }
+
+  .quote {
+    font-style: italic;
+  }
+
+
+  .button {
+
+	--border: 2px solid #355115;
+
+	appearance: none;
+	position: relative;
+	padding: 0;
+	background: transparent;
+	text-transform: uppercase;
+	letter-spacing: .2em;
+	outline: none;
+	cursor: pointer;
+	font-weight: bold;
+	border-radius: 0;
+	border: none;
+  }
+
+	.button span {
+		display: block;
+		position: relative;
+		padding: 1.4em 4em;
+		background: #fff;
+		color: #355115;
+		border: var(--border);
+		transition: transform .2s ease;
+		z-index: 1;
+		will-change: transform;
+	}
+
+	.button::after {
+		content: '';
+		position: absolute;
+		top: 6px;
+		left: 6px;
+		width: calc(100% - 5px);
+		height: calc(100% - 5px);
+		background: lightgrey;
+		border: var(--border);
+	}
+
+	.button:hover span {
+		transform: translate(-3px, -3px);
+	}
+
+	.button:active span {
+		transition: transform .05s ease;
+		transform: translate(0, 0);
+	}
