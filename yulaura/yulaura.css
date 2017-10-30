@@ -13,7 +13,11 @@ h1 {
   color: white;
   margin-top: 1.2em;
   margin-bottom: 1.2em;
-  font-size:2rem;
+  font-size:5rem;
+  text-align: center;
+  -webkit-animation:colorchange_h1 20s infinite alternate;
+  border-color: colorchange 20s infinite alternate;
+  border: 20px solid;
 }
 p:first-of-type {
   font-size: 1.5rem;
@@ -24,7 +28,8 @@ p:first-of-type {
 p{
   font-family: 'Permanent Marker', cursive;
   color: white;
-  background-image: url('giphy.gif');
+  text-align: center;
+  /*background-image: url('giphy.gif');*/
 }
 
 .sweetstuff-inner{
@@ -39,7 +44,7 @@ p{
   margin-right: auto;
 }
 
-.article-image img{
+.article-module img{
   width: 100%;
 }
 
@@ -47,12 +52,12 @@ p{
   margin: 0 auto;
 }
 
-.awesome {
+
+
+/*.awesome {
 
   font-family: 'Permanent Marker', cursive;
-
   width:100%;
-
   margin: 0 auto;
   text-align: center;
 
@@ -61,7 +66,7 @@ p{
   font-weight: bold;
   position: absolute;
   -webkit-animation:colorchange 20s infinite alternate;
-}
+}*/
 
 .center {
   margin: 0 auto;
@@ -79,8 +84,35 @@ p{
   color:#313131;
   font-size:45px;
   font-weight: bold;
-  position: absolute;
+  background-image: url('giphy.gif');
+  /*position: absolute;*/
   -webkit-animation:colorchange 20s infinite alternate;
+}
+
+.nyancat {
+    width: 33%;
+    float: left;
+    max-width: 200px;
+}
+
+/*a{
+  font-family: 'Permanent Marker';
+  font-size: 25pt;
+  text-align: center;
+  text-decoration: none;
+  -webkit-animation:colorchange_h1 20s infinite alternate;
+  color: colorchange_h1 20s infinite alternate;
+}*/
+
+
+.article-teaser {
+  display: block;
+  transition: all 0.4s;
+}
+
+.article-teaser:hover {
+  /*background-image: image();*/
+  transform: rotate(-12deg) scale(1.2);
 }
 
 @-webkit-keyframes colorchange {
@@ -126,5 +158,91 @@ p{
 
   100% {
     color: pink;
+  }
+}
+
+@-webkit-keyframes colorchange_h1 {
+  0% {
+    color: blue;
+  }
+
+  5% {
+    color: #8e44ad;
+  }
+
+  10% {
+    color: #1abc9c;
+  }
+
+  15% {
+    color: #d35400;
+  }
+
+  20% {
+    color: blue;
+  }
+
+  25% {
+    color: #34495e;
+  }
+
+  30% {
+    color: blue;
+  }
+
+  35% {
+    color: #2980b9;
+  }
+
+  40% {
+    color: #f1c40f;
+  }
+
+  45% {
+    color: #2980b9;
+  }
+
+  50% {
+    color: pink;
+  }
+
+  55% {
+    color: blue;
+  }
+
+  60% {
+    color: #8e44ad;
+  }
+
+  65% {
+    color: #1abc9c;
+  }
+
+  70% {
+    color: #d35400;
+  }
+
+  75% {
+    color: blue;
+  }
+
+  80% {
+    color: #34495e;
+  }
+
+  85% {
+    color: blue;
+  }
+
+  90% {
+    color: #2980b9;
+  }
+
+  95% {
+    color: #f1c40f;
+  }
+
+  100% {
+    color: #2980b9;
   }
 }
