@@ -6,7 +6,7 @@ html {
 }
 
 h1 {
-  font-family: 'Arimo';
+  font-family: 'Helvetica';
   font-weight: normal;
   margin-top: 2em;
   margin-bottom: 1em;
@@ -35,3 +35,45 @@ p:first-of-type {
 .article-image img {
   width: 100%;
 }
+
+.article-module {
+  margin-top: 4em;
+  margin-bottom: 4em;
+}
+
+.article-info {
+  background-color: blue;
+  float: right;
+  wide: 12rem;
+  padding: 1rem 1.3rem;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  border: 5px solid black;
+
+  box-shadow: 10px 10px 20px 0 black
+}
+
+.article-teaser-image img {
+  width: 100%;
+  height: auto;
+}
+
+.article-related .article-inner-wide {
+  display: flex;
+}
+
+.article-teaser {
+  margin: 1rem;
+  text-decoration: none;
+  color: red;
+  background-color: yellow;
+}
+
+.article-teaser:hover{
+  background-color: red;
+  transform:rotate(3deg) scale(1.2);
+}
+
+.article-teaser-headline{
+  padding: 0.5rem 1rem 1.5rem 1rem;
+  }
