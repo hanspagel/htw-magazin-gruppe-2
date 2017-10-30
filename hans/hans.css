@@ -1,20 +1,17 @@
 html {
-  font-family: 'Helvetica';
+  font-family: 'PT Serif', serif;
   font-size: 18px;
   line-height: 1.6;
-  color: blue;
+  color: #333333;
 }
 
 h1 {
-  font-family: 'Arimo';
+  font-family: 'Arimo', sans-serif;
   font-weight: normal;
   margin-top: 2em;
   margin-bottom: 1em;
   font-size: 2rem;
 }
-
-
-/* NOTE: erster Paragraph groß */
 
 .article-text:first-of-type p:first-of-type {
   font-size: 1.4rem;
@@ -37,6 +34,16 @@ h1 {
   margin-right: auto;
 }
 
+.article-inner-tight {
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.article-image img {
+  width: 100%;
+}
+
 .article-info {
   background-color: yellow;
   float: right;
@@ -44,12 +51,9 @@ h1 {
   padding: 1rem 1.3rem;
   margin-left: 1rem;
   margin-bottom: 1rem;
-  border: 5px dotted black;
-  box-shadow: 10px 10px 0 0 rgba(0, 0, 0, 0.5);
-}
-
-.article-image img {
-  width: 100%;
+  border: 5px solid black;
+  box-shadow: 10px 10px 0 0 rgba(0, 0, 0, 0.1);
+  font-family: 'Arimo', sans-serif;
 }
 
 .article-teaser-image img {
@@ -58,27 +62,36 @@ h1 {
 }
 
 .article-related .article-inner-wide {
- display: flex;
-}
-
-.article-teaser {
- margin: 1rem;
- text-decoration: none;
- color: red;
- background-color: yellow;
- transition: all 0.4s;
-}
-
-.article-teaser:hover {
-  background-color: turquoise;
-  transform: rotate(3deg) scale(1.2);
-}
-
-.article-teaser-headline {
-  padding: 0.5rem 1rem 1.5rem 1rem;
-  font-family: 'Arimo';
+  display: flex;
 }
 
 .article-teaser {
   margin: 1rem;
+  text-decoration: none;
+  color: black;
+  background-color: yellow;
+  transition: all 0.4s;
 }
+
+.article-teaser:hover {
+  background-color: turquoise;
+  transform: rotate(-13deg) scale(1.2) skew(-13deg);
+}
+
+.article-teaser-headline {
+  padding: 0.5rem 1rem 1.2rem 1rem;
+  font-family: 'Arimo', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* NOTE:  */
