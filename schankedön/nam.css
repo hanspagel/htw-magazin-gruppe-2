@@ -7,7 +7,7 @@ html {
 
 h1 {
   font-family: 'Helvetica';
-  font-weight: normal;
+  font-weight: bold;
   margin-top: 2em;
   margin-bottom: 1em;
   font-size: 2rem;
@@ -77,3 +77,45 @@ p:first-of-type {
 .article-teaser-headline{
   padding: 0.5rem 1rem 1.5rem 1rem;
   }
+
+.article-graphic {
+  text-align: center;
+}
+
+.animated-eye {
+   animation: wobble 1s infinite alternate;
+   transform-origin: center;
+}
+
+@keyframes wobble {
+  0% {
+    fill: green;
+  }
+
+  25% {
+    fill: orange;
+  }
+
+  50% {
+    fill: turquoise;
+  }
+
+  75% {
+    fill: red;
+  }
+
+  to {
+    transform: scale(1.2);
+  }
+}
+
+.animated-face {
+  animation: drehen 30s infinite;
+  transform-origin: center;
+}
+
+@keyframes drehen{
+  to {
+    transform: rotate(360deg);
+  }
+}
