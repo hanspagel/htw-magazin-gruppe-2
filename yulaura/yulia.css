@@ -5,6 +5,7 @@
 body {
   background-color: #F5DD90;
   overflow-x: hidden;
+  margin: 0;
 }
 
 
@@ -34,12 +35,14 @@ p:first-letter{
 }
 
 .text_block {
-  padding-left: 50px;
-  max-width: 900px;
+  display: block;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .image {
-  padding-left: 50px;
+  padding-left: -5px;
   max-width: 900px;
 }
 
@@ -49,4 +52,32 @@ p:first-letter{
   margin-left: auto;
   margin-right: auto;
   width: 100%;
+}
+
+.article-graphic{
+  text-align: center;
+}
+
+.animated-eye{
+  animation: wobble 6s infinite alternate;
+  transform-origin: center;
+}
+
+@keyframes wobble {
+to {
+  transform:scale(1.6);
+  fill:red;
+ }
+}
+
+.animated-face{
+  animation: drehen 30s infinite;
+  transform-origin: center;
+}
+
+@keyframes drehen {
+to {
+transform: rotate(360deg);
+
+ }
 }
