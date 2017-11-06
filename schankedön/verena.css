@@ -2,11 +2,11 @@ html {
   font-family: 'Helvetica';
   font-size: 18px;
   line-height: 1.6;
-  color: blue;
+  color: red;
 }
 
 h1 {
-  font-family: 'Arimo';
+  font-family: 'Hevetica';
   font-weight: normal;
   margin-top: 2em;
   margin-bottom: 1em;
@@ -81,4 +81,50 @@ h1 {
 
 .article-teaser {
   margin: 1rem;
+}
+
+.article-graphic {
+text-align: center;
+}
+
+.animated-eye {
+  animation: wobble 1s infinite alternate;
+  transform-origin: center;
+}
+
+@keyframes wobble {
+  0% {
+    fill:green;
+  }
+
+  25% {
+    fill:orange;
+  }
+
+50% {
+  fill:turquoise;
+}
+
+75% {
+  fill:red;
+}
+
+100% {
+  fill: blue;
+}
+
+  to {
+    transform: scale(1.2);
+  }
+}
+
+.animated-face {
+  animation: drehen 30s infinite;
+  transform-origin: center;
+}
+
+@keyframes drehen {
+  to {
+    transform: rotate(350deg);
+  }
 }
