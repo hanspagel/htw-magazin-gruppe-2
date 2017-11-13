@@ -115,6 +115,33 @@ p{
   transform: rotate(-12deg) scale(1.2);
 }
 
+.article-graphic{
+  text-align: center;
+}
+
+.animated-eye{
+  animation: wobble 1s infinite alternate;
+  transform-origin: center;
+}
+
+@keyframes wobble {
+  to {
+  transform:scale(0.6);
+  fill:blue;
+  }
+}
+
+.animated-face{
+  animation: drehen 2s infinite;
+  transform-origin: center;
+}
+
+@keyframes drehen {
+  to{
+    transform: rotate(360deg);
+  }
+}
+
 @-webkit-keyframes colorchange {
   0% {
     color: blue;
