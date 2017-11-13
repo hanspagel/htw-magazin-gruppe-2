@@ -10,7 +10,7 @@ h1 {
   font-weight: bold;
   margin-top: 2em;
   margin-bottom: 1em;
-  font-size: 2,5rem;
+  font-size: 2.5rem;
 }
 
 h2 {
@@ -18,7 +18,7 @@ h2 {
   font-weight: normal;
   margin-top: 2em;
   margin-bottom: 1em;
-  font-size: 1,5rem;
+  font-size: 1.5rem;
 }
 
 h3 {
@@ -26,9 +26,21 @@ h3 {
   font-weight: normal;
   margin-top: 2em;
   margin-bottom: 1em;
-  font-size: 0,5rem;
+  font-size: 1rem;
+  color: #FF7F50;
 }
 
+.toolbar-left a {
+  font-family: 'Akzidenz-Grotesk Pro', 'Arimo', sans-serif;
+  font-size: 2.5rem;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.article-animated {
+  animation: oben 3s infinite alternate;
+}
 
 .article-image img {
   margin: 10px;
@@ -56,14 +68,12 @@ h3 {
 .article-text-info {
   background-color: #FF7F50;
   float: right;
-  width: 20rem;
+  width: 10rem;
   padding: 2rem 1,5rem;
   margin-left: 1,5rem;
   font-family: sans-serif;
   border: 3px solid #838B83;
-
   box-shadow: 10px 10px 0 0 #8B6969;
-
 }
 
 .article-teaser {
@@ -74,19 +84,22 @@ h3 {
 }
 
 .article-teaser-headline:hover {
-color: #838B83;
-font-size: 30px;
-transform: rotate(3deg);
-margin-right: 2rem;
-transition: all 0.5s;
- }
+  color: #838B83;
+  font-size: 30px;
+  transform: rotate(3deg);
+  margin-right: 2rem;
+  transition: all 0.5s;
+}
 
 .article-teaser-image img {
-  width: 500px
+  width: 500px;
+  z-index: 50;
+  position: relative;
 }
 
 .article-teaser-image {
-margin-right: 1rem;
+  margin-right: 1rem;
+  z-index: 5;
 }
 
 .article-teaser-headline {
@@ -98,4 +111,168 @@ margin-right: 1rem;
   color: red;
   width: 80%;
   height: 5px;
+}
+
+.toolbar-left {
+  float: left;
+  width: 250px;
+  height: 300px;
+  justify-content: space-around;
+  background-color: lightgreen;
+  animation: start 3s infinite alternate;
+}
+
+@keyframes start {
+  10% {background-color: #EE3B3B;}
+  20% {background-color: #FFFF00;}
+  30% {background-color: #EE7942;}
+  50% {background-color: #D02090;}
+  70% {background-color: #551A8B;}
+  90% {background-color: #00CDCD;}
+  100% {background-color: #191970;}
+  0% {background-color: #EEB4B4;}
+}
+
+
+a:hover {
+  color: black;
+}
+
+.hintergrundoben {
+  width: 1500px;
+  height: 450px;
+  background-color: green;
+  opacity: 0.2;
+  animation: oben 3s infinite alternate;
+  z-index: 10;
+}
+
+@keyframes oben {
+  0% {background-color: #EEB4B4;}
+  10% {background-color: #EE3B3B;}
+  20% {background-color: #FFFF00;}
+  30% {background-color: #EE7942;}
+  50% {background-color: #D02090;}
+  70% {background-color: #551A8B;}
+  90% {background-color: #00CDCD;}
+  100% {background-color: #191970;}
+}
+
+
+.article-graphic {
+  text-align: center;
+}
+
+.animated-eye {
+  animation: acid 0.5s infinite alternate;
+  transform-origin: center;
+  text-align: center;
+}
+
+@keyframes acid {
+  to {
+    transform: scale(1.5);
+    fill: pink;
+  }
+}
+
+.animated-star {
+  text-align: center;
+  animation: supacid 1s infinite alternate;
+  transform-origin: center;
+}
+
+@keyframes supacid {
+  to {
+    transform: scale(2.7)
+    rotate(360deg)
+  }
+}
+
+.animated-face {
+  animation: drehen 20s infinite;
+  transform-origin: center;
+  text-align: center;
+  display: flex;
+}
+
+@keyframes drehen {
+  to {
+    transform: rotate(360deg)
+  }
+}
+
+.background {
+  animation: farbe 5s infinite alternate;
+}
+
+@keyframes farbe {
+  0% {
+    fill: yellow;
+  }
+  20% {
+    fill: orange;
+  }
+  40% {
+    fill: pink;
+  }
+  60% {
+    fill: lightblue;
+  }
+  80% {
+    fill: lightgreen;
+  }
+  100% {
+    fill: purple;
+  }
+}
+
+.hintergrundoben {
+  position: absolute;
+}
+
+.article-stage {
+  color: white;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 50vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.stage-headline {
+  font-weight: normal;
+  font-size: 3rem;
+  line-height: 1.2;
+  position: relative;
+}
+
+.stage-subline {
+  font-size: 1rem;
+  position: relative;
+}
+
+body {
+  margin: 0;
+}
+
+.article-stage::before {
+  content: '';
+  background: linear-gradient(360deg, black, transparent);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  opacity: 0.6;
+}
+
+.speziallink {
+  font-family: 'Akzidenz-Grotesk Pro', 'Arimo', sans-serif;
+  font-weight: normal;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  font-size: 1.5rem;
 }
