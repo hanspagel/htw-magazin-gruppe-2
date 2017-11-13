@@ -1,5 +1,5 @@
 html{
-  font-family: 'Helvetica';
+  font-family: 'Merriweather';
   background-color: lightgrey;
   font-size: 18px;
   line-height: 1.6;
@@ -10,14 +10,17 @@ html{
 }
 
 h1{
-  font-family: 'Primetime', sans-serif;
+  font-family: 'Six Caps', sans-serif;
   font-weight: normal;
   margin-top: 1em;
-  font-size: 2rem;
+  font-size: 7rem;
+  color: #D8B445;
+  text-decoration: none;
+  letter-spacing: 0.1em ;
 }
 
 .article-text:first-of-type p:first-of-type {
-  font-size:1.4rem;
+  font-size:1.2rem;
 }
 
 .article-module{
@@ -57,26 +60,41 @@ h1{
   font-family: 'Primetime', sans-serif;
 }
 
-.article-teaser-image img{
-  width: 100%;
+.article-teaser-image1 img{
+  width: 210%;
   height: auto;
-
+  margin-left: -60px;
 }
+
+.article-teaser-image3 img{
+  width: 190%;
+  height: auto;
+  margin-left: -60px;
+}
+
+.article-teaser-image2 img{
+  width: 250%;
+  height: auto;
+  margin-left: -60px;
+}
+
 .article-teaser {
   margin: 1rem;
+  padding: 1rem;
   text-decoration: none;
   color: black;
-  background-color: tomato;
-  transition: all 2s;
+  background-color: none;
+  transition: all 0.5s;
 }
 
 .article-teaser:hover{
-  background-color: yellow;
-  transform:rotate(13deg) scale(1.2);
+  background-color: none;
+  transform:scale(1.2);
 }
 
 .article-teaser-headline {
-  padding: 0.5rem 1rem 1.2rem 1rem;
+  padding: 0.5rem 3rem 1rem 3rem;
+  text-align: ;
 }
 
 .article-related .article-inner {
