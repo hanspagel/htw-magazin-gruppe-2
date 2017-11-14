@@ -84,6 +84,52 @@ h1 {
 }
 
 
+.article-graphic {
+  text-align: center;
+}
+
+.animated-eye {
+  animation: wobble 1s infinite alternate;
+  transform-origin: center;
+}
+
+@keyframes wobble {
+  0% {
+    fill: green;
+  }
+
+  25% {
+    fill: orange;
+  }
+
+  50% {
+    fill: turquoise;
+  }
+
+  75% {
+    fill: pink;
+  }
+
+  100% {
+    transform: scale(1.2);
+    fill: red;
+  }
+}
+
+.animated-face {
+  animation: drehen 5s infinite;
+  transform-origin: center;
+  animation-timing-function: linear;
+}
+
+@keyframes drehen {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
 
 
 
