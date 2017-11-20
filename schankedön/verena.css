@@ -145,7 +145,6 @@ text-align: center;
 
 .article-stage::before {
   content: "";
-  background: linear-gradient(90deg, black, transparent);
   position: absolute;
   top: 0;
   left: 0;
@@ -164,4 +163,41 @@ text-align: center;
 .stage-subline {
   font-size: 1.5rem;
   font.weight: normal;
+}
+
+.button {
+ border: 5px solid black;
+ border-radius: 0;
+ background-color:white;
+ font-size: 1.2rem;
+ font-family:'Helvetica';
+ padding: 15px 25px;
+ cursor: url(cursor.png), pointer;
+ box-shadow: 5px 5px 0 0 black;
+}
+
+.button:focus {
+  outline: 1px dashed red;
+}
+
+.button:hover {
+ box.shadow: none;
+ position: relative;
+ top: 5px;
+ left: 5px;
+}
+
+.article-interactive {
+  text-align: center;
+  min-height:50vh;
+  background-color: yellow;
+  display: flex;
+  align-items: center;
+}
+
+.action {
+ background: url(zweet.gif);
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: 60%;
 }
