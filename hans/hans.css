@@ -128,6 +128,50 @@ h1 {
   }
 }
 
+body {
+  margin: 0;
+}
+
+.article-stage {
+  background-image: url(wasser.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 2rem;
+  height: 70vh;
+  text-align: center;
+  display: flex;
+  align-items: flex-end;
+  color: white;
+  position: relative;
+}
+
+.article-stage::before {
+  content: "";
+  background: linear-gradient(0, black, transparent);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.5;
+}
+
+.stage-headline {
+  font-family: 'Arimo', sans-serif;
+  font-weight: normal;
+  font-size: 2.5rem;
+  line-height: 1.3;
+  position: relative;
+}
+
+.stage-subline {
+  font-size: 1.5rem;
+  font-weight: normal;
+  position: relative;
+}
+
+
 
 
 
