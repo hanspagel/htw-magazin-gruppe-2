@@ -146,7 +146,6 @@ body {
 
 .article-stage::before {
   content: "";
-  background: linear-gradient(90deg, black, transparent);
   position: absolute;
   top:0;
   left: 0;
@@ -160,4 +159,40 @@ body {
   position: relative;
 
 
+}
+
+.button {
+border:10px solid black;
+border-radius: 0;
+background-color: blue;
+font-size: 1.2rem;
+font-family:"Helvetica" bold;
+cursor: url(peitsche.png), pointer;
+
+
+ box-shadow: 5px 5px 0 0 black;
+}
+
+.button:focus{
+   outline: 1px dashed:red;
+}
+
+.button:hover {
+box-shadow: none;
+position: relative;
+top: 5px;
+left: 5px;
+}
+
+.article-interactive {
+  text-align: center;
+  min-height: 50vh;
+  background-color: blue;
+  display: flex;
+  align-items: center;
+}
+.action{
+  background: url(hello.gif);
+  background-position: center;
+  background-size: 40%
 }
