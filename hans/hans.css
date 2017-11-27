@@ -1,8 +1,20 @@
 html {
   font-family: 'PT Serif', serif;
-  font-size: 18px;
+  font-size: 15px;
   line-height: 1.6;
   color: #333333;
+}
+
+@media all and (min-width: 600px) {
+  html {
+    font-size: 19px;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  html {
+    font-size: 22px;
+  }
 }
 
 h1 {
@@ -46,14 +58,20 @@ h1 {
 
 .article-info {
   background-color: yellow;
-  float: right;
-  width: 12rem;
+  float: none;
   padding: 1rem 1.3rem;
   margin-left: 1rem;
   margin-bottom: 1rem;
   border: 5px solid black;
   box-shadow: 10px 10px 0 0 rgba(0, 0, 0, 0.1);
   font-family: 'Arimo', sans-serif;
+}
+
+@media all and (min-width: 600px) {
+  .article-info {
+    float: right;
+    width: 12rem;
+  }
 }
 
 .article-teaser-image img {
@@ -130,6 +148,7 @@ h1 {
 
 body {
   margin: 0;
+  margin-top: 150px;
 }
 
 .article-stage {
@@ -213,10 +232,37 @@ body {
   */
 }
 
+.header {
+  background: black;
+  padding: 1rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 5;
+}
 
+.header-logo {
+  color: white;
+  text-decoration: none;
+  font-family: "Arimo", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 25px;
+}
 
+/* ALT + 5 */
 
+[data-aos="wurst"] {
+  filter: blur(100px);
+  transform: scale(0.3) rotate(180deg);
+  transition-property: all;
+}
 
+[data-aos="wurst"].aos-animate {
+  filter: blur(0px);
+  transform: rotate(0deg);
+}
 
 
 
