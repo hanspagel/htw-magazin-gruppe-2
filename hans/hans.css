@@ -171,6 +171,47 @@ body {
   position: relative;
 }
 
+.button {
+  border: 5px solid black;
+  border-radius: 0;
+  background-color: yellow;
+  font-size: 1.2rem;
+  font-family: "Arimo", sans-serif;
+  padding: 15px 25px;
+  cursor: url(cursor.png), pointer;
+
+  /* NOTE: rechts unten blur überfüllen farbe */
+  box-shadow: 5px 5px 0 0 black;
+}
+
+.button:focus {
+  outline: 1px dashed red;
+}
+
+.button:hover {
+  box-shadow: none;
+  position: relative;
+  top: 5px;
+  left: 5px;
+}
+
+.article-interactive {
+  text-align: center;
+  min-height: 50vh;
+  background-color: yellow;
+  display: flex;
+  align-items: center;
+}
+
+.action {
+  background: url(action.gif);
+
+  /*
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50%;
+  */
+}
 
 
 
