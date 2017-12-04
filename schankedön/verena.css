@@ -3,6 +3,7 @@ html {
   font-size: 18px;
   line-height: 1.6;
   color: black;
+  background-color: white;
 }
 
 h1 {
@@ -13,191 +14,18 @@ h1 {
   font-size: 2rem;
 }
 
+h2 {
+  font-family: 'Helvetica';
+  font-size: 26px;
+  line-height: 1.6;
+  color: black;
+}
 
 /* NOTE: erster Paragraph groß */
 
-.article-text:first-of-type p:first-of-type {
-  font-size: 1.4rem;
-}
-
-.article-module {
-  margin-top: 4em;
-  margin-bottom: 4em;
-}
 
 .article-inner {
   max-width: 700px;
   margin-left: auto;
   margin-right: auto;
-}
-
-.article-inner-wide {
-  max-width: 850px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.article-info {
-  background-color: yellow;
-  float: right;
-  width: 12rem;
-  padding: 1rem 1.3rem;
-  margin-left: 1rem;
-  margin-bottom: 1rem;
-  border: 5px dotted black;
-  box-shadow: 10px 10px 0 0 rgba(0, 0, 0, 0.5);
-}
-
-.article-image img {
-  width: 100%;
-}
-
-.article-teaser-image img {
-  width: 100%;
-  height: auto;
-}
-
-.article-related .article-inner-wide {
- display: flex;
-}
-
-.article-teaser {
- margin: 1rem;
- text-decoration: none;
- color: red;
- background-color: yellow;
- transition: all 0.4s;
-}
-
-.article-teaser:hover {
-  background-color: turquoise;
-  transform: rotate(3deg) scale(1.2);
-}
-
-.article-teaser-headline {
-  padding: 0.5rem 1rem 1.5rem 1rem;
-  font-family: 'Arimo';
-}
-
-.article-teaser {
-  margin: 1rem;
-}
-
-.article-graphic {
-text-align: center;
-}
-
-.animated-eye {
-  animation: wobble 1s infinite alternate;
-  transform-origin: center;
-}
-
-@keyframes wobble {
-  0% {
-    fill:green;
-  }
-
-  25% {
-    fill:orange;
-  }
-
-50% {
-  fill:turquoise;
-}
-
-75% {
-  fill:red;
-}
-
-100% {
-  fill: blue;
-}
-
-  to {
-    transform: scale(1.2);
-  }
-}
-
-.animated-face {
-  animation: drehen 30s infinite;
-  transform-origin: center;
-}
-
-@keyframes drehen {
-  to {
-    transform: rotate(350deg);
-  }
-}
-
-.article-stage {
-  background-image: url(Melania.jpeg);
-  background-size: cover;
-  background-position:center;
-  background-attachment: fixed;
-  padding: 1rem;
-  height: 100vh;
-  text-align: center;
-  display: flex;
-  align-items: flex-end;
-  color: white;
-  position: relative;
-}
-
-.article-stage::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-}
-
-.stage-headline {
-  font-family: Helvetica;
-  font-weight: normal;
-  font-size: 2rem;
-  line-height: 1.3;
-  position: relative;
-}
-
-.stage-subline {
-  font-size: 1.5rem;
-  font.weight: normal;
-}
-
-.button {
- border: 5px solid black;
- border-radius: 0;
- background-color:white;
- font-size: 1.2rem;
- font-family:'Helvetica';
- padding: 15px 25px;
- cursor: url(cursor.png), pointer;
- box-shadow: 5px 5px 0 0 black;
-}
-
-.button:focus {
-  outline: 1px dashed red;
-}
-
-.button:hover {
- box.shadow: none;
- position: relative;
- top: 5px;
- left: 5px;
-}
-
-.article-interactive {
-  text-align: center;
-  min-height:50vh;
-  background-color: yellow;
-  display: flex;
-  align-items: center;
-}
-
-.action {
- background: url(zweet.gif);
- background-repeat: no-repeat;
- background-position: center;
- background-size: 60%;
 }
