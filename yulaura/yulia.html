@@ -5,9 +5,22 @@
     <title>Caramel Fleur De Sel</title>
     <link href="yulia.css" rel="stylesheet" type="text/css"/>
     <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,700" rel="stylesheet">
+    <script src="JS/jquery.js"> </script>
+      <script src="JS/app.js"> </script>
+     <link rel="stylesheet" href="CSS/aos.css"/>
+     <script src="JS/aos.js" charset="utf-8"></script>
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
   </head>
 
 <body>
+
+  <header class="header">
+      <a href="#" class="header-logo">
+        Test
+      </a>
+  </header>
+
   <div class="text_block">
     <h1>
     Caramel Fleur De Sel
@@ -23,7 +36,15 @@
     </p>
   </div>
 
-    <div class="image">
+    <div class="image"
+    data-aos="test"
+    data-aos-offset="200px"
+    data-aos-duration="1500"
+    data-aos-
+
+
+
+    >
       <img src="Bilder/Testbild.jpg" alt="das ist ein beispielbild">
     </div>
 
@@ -65,7 +86,35 @@
     </svg>
   </div>
 
+    <div class="article-module article-stage">
+      <div class="article-inner">
 
+        <h2 class="stage-headline">
+          Zitat des Tages
+        </h2>
+        <p class="stage-subline">Some men are called sagacious, merely on account of their avarice: whereas a child can clench its fist the moment it is born.<br>
+            ~ William Shenstone ~
+        </p>
+
+
+      </div>
+
+    </div>
+
+    <div class="article-module article-interactive">
+
+    <div class="article-inner">
+      <button class="button">play</button>
+    </div>
+
+
+    </div>
+
+
+
+    <script>
+    AOS.init();
+   </script>
 
 </body>
 

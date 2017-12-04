@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+
+
+/* D E S I G N */
+@media mobile and (max-425px) {
+  .p{
+    max-width: 375px;
+    column-count: 1;
+    font-size: 8px;
+    padding: 3em;
+    font-family: 'Merriweather', serif;
+    font-weight: lighter;
+
+    }
+
+}
+
+body {
+  background-color: #F9F311;
+  overflow-x: hidden;
+  margin: 0rem;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  margin-top: 0.2em;
+  margin-botton: 0.2em;
+  display: flex;
+  background-size: cover;
+}
+
+h1{
+  padding-top: 40px;
+  text-align: center;
+  font-size: 64px;
+  font-family: Hiragino Kaku Gothic StdN W8;
+}
+
+h2{
+text-align: center;
+font-size: 4em;
+font-family: Hiragino Kaku Gothic StdN W8;
+color: #F9F311;
+margin-top: -200px;
+
+}
+
+.article{
+align-items: center;
+}
+
+.first {
+  max-width: 375px;
+  margin: 0 auto;
+}
+
+.second {
+  margin: 0 auto;
+  column-count: 3;
+}
+
+.third{
+  margin: 0 auto;
+  column-count: 3;
+}
+
+.last {
+  max-width: 375px;
+  margin: 0 auto;
+}
+
+p {
+font-family: 'Merriweather', serif;
+font-weight: lighter;
+font-size: 0,33em;
+}
+
+
+
+/*
+.article inner{
+  position:relative;
+}
+
+.image{
+position:absolute; top:0; left:0;
+}
+
+.quote{
+position:absolute; top:0; left:0;
+}  */
