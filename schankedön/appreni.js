@@ -6,4 +6,13 @@ $(document) .ready (function () {
 
  })
 
+ // click oder mouseover
+
+ $("[data-sound]").mouseover(function() {
+
+   var file = $(this).attr("data-sound");
+   new Audio(file).play()
+
+ })
+
 })
