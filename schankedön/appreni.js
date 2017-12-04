@@ -11,6 +11,7 @@ $(document) .ready (function () {
  $("[data-sound]").mouseover(function() {
 
    var file = $(this).attr("data-sound");
+
    new Audio(file).play()
 
  })
