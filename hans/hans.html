@@ -5,8 +5,27 @@
     <title>Die besten Angelruten der Saison</title>
     <link rel="stylesheet" href="hans.css">
     <link href="https://fonts.googleapis.com/css?family=Arimo:400,700|PT+Serif:400,700" rel="stylesheet">
+
+    <script src="jquery.js"></script>
+    <script src="app.js"></script>
+
+    <link rel="stylesheet" href="aos.css">
+    <script src="aos.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
   </head>
   <body>
+
+
+
+    <header class="header">
+      <a href="#" class="header-logo">
+        Techno
+      </a>
+    </header>
+
+
 
     <div class="article-module article-text">
       <div class="article-inner">
@@ -20,7 +39,7 @@
         </p>
 
         <p>
-          Alle sind aufgeregt, die neue Angelsaison steht vor der Tür, die Schonzeiten für den Fischbestand sind vorbei. Im letzten Jahr bist du auf den Geschmack gekommen, als du mit deinem Bekannten am Angelteich saßt.
+          Alle sind aufgeregt, die neue Angelsaison steht vor der Tür, <a href="#einleitung">die Schonzeiten</a> für den Fischbestand sind vorbei. Im letzten Jahr bist du auf den Geschmack gekommen, als du mit deinem Bekannten am Angelteich saßt.
         </p>
 
         <p>
@@ -30,11 +49,31 @@
       </div>
     </div>
 
-    <div class="article-module article-image">
+    <a name="einleitung"></a>
+
+    <div class="article-module article-interactive">
+
+      <div class="article-inner">
+
+        <button class="button">Play</button>
+
+      </div>
+
+    </div>
+
+
+    <div
+      class="article-module article-image"
+      data-aos="wurst"
+      data-aos-offset="400"
+      data-aos-duration="1500"
+      data-aos-once="true"
+    >
       <div class="article-inner-wide">
         <img src="Hecht_Mueller.jpg" alt="Großer Fisch">
       </div>
     </div>
+
 
     <div class="article-module article-text">
       <div class="article-inner">
@@ -53,7 +92,6 @@
 
       </div>
     </div>
-
 
     <div class="article-module article-graphic">
 
@@ -87,6 +125,32 @@
       </svg>
 
     </div>
+
+
+
+
+
+
+    <div class="article-module article-stage">
+
+      <div class="article-inner">
+
+        <h2 class="stage-headline">
+          »Das Angeln, und der ganze Sport, hat mein Leben verändert.«
+        </h2>
+
+        <h3 class="stage-subline">
+          Hans Pagel
+        </h3>
+
+      </div>
+
+    </div>
+
+
+
+
+
 
 
     <div class="article-module article-related">
@@ -127,6 +191,10 @@
 
       </div>
     </div>
+
+    <script>
+      AOS.init();
+    </script>
 
   </body>
 </html>
