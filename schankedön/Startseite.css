@@ -1,21 +1,21 @@
 html {
-  background-color: red;
+  margin-top: 300px;
+  margin-left: 0px;
+  background-color: #FFB6C1;
 }
 
 .button {
- margin-top: 400px;
- margin-left: 500px;
- border: 5px solid black;
- border-radius: 0;
- font-size: 72px;
+ font-size: 80px;
  font-family:'Helvetica';
  color: white;
+ margin-top: 400px;
+ margin-left: 500px;
  cursor: url(cursor.png), pointer;
  text-decoration: none;
 }
 
 .button:focus {
-  outline: 1px dashed red;
+  outline: 1px dashed white;
 }
 
 .button:hover {
