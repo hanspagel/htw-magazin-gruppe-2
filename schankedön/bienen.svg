@@ -1,18 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 837.23 377.31">
   <title>bienen</title>
-  <style>
-    .wing {
-      stroke: green;
-      animation: fliegen 2s alternate infinite;
-    }
 
-    @keyframes fliegen {
-      to {
-        transform: rotate(360deg);
-        transform-origin: center;
-      }
-    }
-  </style>
   <g>
     <g>
       <path d="M366.1,198.91l-0.46,15.17s4.43-1.34,5.08-7.25A7.59,7.59,0,0,0,366.1,198.91Z" transform="translate(-46.49 -116.37)" fill="#1d1d1b" stroke="#1d1d1b" stroke-miterlimit="10"/>
