@@ -7,6 +7,17 @@ html {
   background-color: white;
 }
 
+p {
+  margin-top: 0px;
+  font-family: 'Helvetica';
+  font-size: 18px;
+  line-height: 1.6;
+  color: black;
+  background-color: white;
+  margin-left: -300px;
+}
+
+
 
 h2 {
   font-family: 'Helvetica';
@@ -18,6 +29,15 @@ h2 {
   margin-left: -300px;
 }
 
+h3 {
+  font-family: 'Helvetica';
+  font-size: 40px;
+  line-height: 1.6;
+  color: #FFB6C1;
+  text-align: left;
+  margin-top: 80px;
+  margin-left: -300px;
+}
 /* NOTE: erster Paragraph groß */
 
 
