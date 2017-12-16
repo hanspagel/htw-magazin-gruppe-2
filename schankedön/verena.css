@@ -55,7 +55,7 @@ img {
 
 
 .article-stage {
-  background-color: #FFB6C1;
+  background-image: url(nippell.svg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
