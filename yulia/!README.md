@@ -1,24 +1,9 @@
-# HTW Technologie 1
+Ramen
 
-## Übung 1
+Die Hauptidee des Projekts war ein Magazin über verschiedene Geschmacksrichtungen.
 
-1. GitHub-Account registrieren: https://github.com/
-2. GitHub App installieren: https://desktop.github.com/
-3. Neues Repository anlegen: https://github.com/new
-4. Atom Code Editor installieren: https://atom.io/
-5. README.txt erstellen
-6. Änderung hochladen
+Der Artikel under dem Titel „Ramen“ wurde am 21 Mai, 2014 von NEW YORKER Culture Desk publiziert.
 
-## Abgabe
+Die Bilder kommen aus lizenzfreien Ressourcen: Pixels und UNSPLASH.
 
-* Alle Dateien in GitHub (HTML, CSS, JS)
-* Eine kurze Textdatei (README) mit allen Namen und einer kurzen Beschreibung (3-4 Sätze)
-* 31.12.2017
-
-## Bewertungskriterien
-
-* Abgabe 10%
-* Kombination 30%
-* Kreativität 30%
-* Design 20%
-* Code 10%
+Die Schriften gehören zu der Gruppe von Google Schriften.   
