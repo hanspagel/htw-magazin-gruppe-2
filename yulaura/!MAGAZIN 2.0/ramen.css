@@ -28,6 +28,8 @@ body {
   background-color: #F9F311;
   overflow-x: hidden;
   margin: 0rem;
+
+
 }
 
 img {
@@ -68,6 +70,8 @@ font-family: 'Merriweather', serif;
 font-weight: lighter;
 font-size: 1em;
 line-height: 125%;
+margin-left: 1em;
+margin-right: 1em;
 /*margin-top: 0;
 margin-bottom: 1.4em;*/
 }
@@ -104,8 +108,8 @@ margin-bottom: 1.4em;*/
 @media all and (max-width: 625px) {
   .third {
     column-count: 1;
-    margin-left: 1.2em;
-    margin-right: 1.2em;
+    margin-left: 1em;
+    margin-right: 1em;
   }
 }
 
@@ -123,8 +127,8 @@ margin-bottom: 1.4em;*/
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
-  margin-top: 5em;
-  margin-bottom: 5em;
+  margin-top: 2em;
+  margin-bottom: 1.6em;
   /*background-size: contain;*/
 }
 
@@ -133,6 +137,8 @@ margin-bottom: 1.4em;*/
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
+	margin-top: 1.6em;
+	margin-bottom: 1.6em;
   /*background-size: contain;*/
 }
 
@@ -141,6 +147,8 @@ margin-bottom: 1.4em;*/
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
+	margin-top: 1.6em;
+	margin-bottom: 1.6em;
   /*background-size: contain;
 
   margin: 1em;*/
