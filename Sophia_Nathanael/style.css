@@ -53,6 +53,14 @@ body {
     color: #000;
   }
 
+.header {
+  background-color: black;
+  padding: 20px;
+  position: fixed;
+  color: white !important;
+
+}
+
   h1 {
   color: #355115;
   font-size: 60px;
@@ -73,6 +81,7 @@ body {
    font-size: 25px;
    font-weight: lighter;
    text-align: left;
+   line-height: 28px;
     }
 
   .spacer120 {
@@ -81,14 +90,13 @@ body {
 
   .blog-text {
     text-align: center;
-    padding-left: 300px;
-    padding-right: 300px;
+    padding: 0 380px;
 
   }
 
   .blog-image {
-    width: 800px;
-    padding: 50px;
+    width: 600px;
+    padding: 50px 0;
     height: auto;
   }
 
@@ -149,3 +157,16 @@ body {
 		transition: transform .05s ease;
 		transform: translate(0, 0);
 	}
+
+  .article-stage {
+    background-image: url(https://unsplash.com/photos/oRWRlTgBrPo);
+  }
+
+[data-aos="animation"] {
+  transform: scale(0.8);
+  transition-property: all;
+}
+
+[data-aos="animation"].aos-animate {
+  transform: scale(0.1);
+}
