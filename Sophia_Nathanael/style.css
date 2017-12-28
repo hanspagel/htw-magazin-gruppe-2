@@ -11,6 +11,8 @@ body {
   display: block;
   }
 
+body, a:hover {cursor: url(http://cur.cursors-4u.net/user/use-1/use168.cur), progress !important;}
+
   * {
   box-sizing: border-box;
   text-rendering: optimizeLegibility;
@@ -39,12 +41,34 @@ body {
     text-decoration: none;
     }
 
-  p {
-      font-size: 16px;
-      line-height: 23px;
-      letter-spacing: 2px;
-      color: #727272;
-      text-align: left;
+  @media all and (min-width: 375px) {
+    p {
+        font-size: 18px;
+        line-height: 22px;
+        letter-spacing: 2px;
+        color: #727272;
+        text-align: left;
+      }
+    }
+
+  @media all and (min-width: 768px) {
+    p {
+        font-size: 22px;
+        line-height: 24px;
+        letter-spacing: 2px;
+        color: #727272;
+        text-align: left;
+      }
+    }
+
+  @media all and (min-width: 1200px) {
+    p {
+        font-size: 22px;
+        line-height: 24px;
+        letter-spacing: 2px;
+        color: #727272;
+        text-align: left;
+      }
     }
 
   .blog-text:first-of-type p:first-of-type {
@@ -58,50 +82,189 @@ body {
   padding: 20px;
   position: fixed;
   color: white !important;
+  z-index: 999;
 
 }
 
-  h1 {
-  color: #355115;
-  font-size: 60px;
-  font-weight: lighter;
-  line-height: 100px;
-  letter-spacing: 5px;
+  @media all and (min-width: 375px)
+  {
+    h1 {
+      color: #355115;
+      font-size: 45px;
+      font-weight: lighter;
+      line-height: 48px;
+      letter-spacing: 5px;
+      padding: 0 20px;
+      }
   }
 
- h2 {
-   font-family: Lato, sans-serif;
-   color: lightgrey;
-   font-size: 15px;
-   font-weight: lighter;
- }
-
- h3 {
-   color: #000;
-   font-size: 25px;
-   font-weight: lighter;
-   text-align: left;
-   line-height: 28px;
+  @media all and (min-width: 375px)
+  {
+    h2 {
+      font-family: Lato, sans-serif;
+      color: lightgrey;
+      font-size: 15px;
+      font-weight: lighter;
     }
+  }
+
+
+  @media all and (min-width: 375px)
+  {
+    h3 {
+      color: #000;
+      font-size: 24px;
+      font-weight: lighter;
+      text-align: left;
+      line-height: 28px;
+       }
+  }
+
+  @media all and (min-width: 768px)
+  {
+    h1 {
+      color: #355115;
+      font-size: 50px;
+      font-weight: lighter;
+      line-height: 60px;
+      letter-spacing: 5px;
+      }
+  }
+
+  @media all and (min-width: 768px)
+  {
+    h2 {
+      font-family: Lato, sans-serif;
+      color: lightgrey;
+      font-size: 15px;
+      font-weight: lighter;
+    }
+  }
+
+
+  @media all and (min-width: 768px)
+  {
+    h3 {
+      color: #000;
+      font-size: 26px;
+      font-weight: lighter;
+      text-align: left;
+      line-height: 30px;
+       }
+  }
+
+  @media all and (min-width: 1200px)
+  {
+    h1 {
+      color: #355115;
+      font-size: 60px;
+      font-weight: lighter;
+      line-height: 70px;
+      letter-spacing: 5px;
+      }
+  }
+
+  @media all and (min-width: 1200px)
+  {
+    h2 {
+      font-family: Lato, sans-serif;
+      color: lightgrey;
+      font-size: 15px;
+      font-weight: lighter;
+    }
+  }
+
+
+  @media all and (min-width: 1200px)
+  {
+    h3 {
+      color: #000;
+      font-size: 25px;
+      font-weight: lighter;
+      text-align: left;
+      line-height: 28px;
+       }
+  }
+
 
   .spacer120 {
     padding: 60px;
   }
 
-  .blog-text {
-    text-align: center;
-    padding: 0 380px;
+  @media all and (min-width: 375px)
+  {
+    .blog-text {
+      padding: 0 30px;
 
+    }
   }
 
-  .blog-image {
-    width: 600px;
-    padding: 50px 0;
-    height: auto;
+  @media all and (min-width: 768px)
+  {
+    .blog-text {
+      padding: 0 140px;
+
+    }
   }
 
-  .header-img-rechts {
-    margin-top: -850px;
+  @media all and (min-width: 1200px)
+  {
+    .blog-text {
+      padding: 0 380px;
+
+    }
+  }
+
+  @media all and (min-width: 375px)
+  {
+    .blog-image {
+      width: 400px;
+      padding: 50px 0;
+      height: auto;
+    }
+  }
+
+  @media all and (min-width: 768px)
+  {
+    .blog-image {
+      width: 500px;
+      padding: 50px 0;
+      height: auto;
+    }
+  }
+
+  @media all and (min-width: 1200px)
+  {
+    .blog-image {
+      width: 600px;
+      padding: 50px 0;
+      height: auto;
+    }
+  }
+
+
+  @media all and (min-width: 375px) {
+    .header-img-rechts {
+      margin-top: -400px;
+      width: 400px;
+      height: auto;
+      }
+  }
+
+  @media all and (min-width: 768px) {
+    .header-img-rechts {
+      margin-top: -560px;
+      width: 600px;
+      height: auto;
+      }
+  }
+
+  @media all and (min-width: 1200px) {
+    .header-img-rechts {
+      margin-top: -840px;
+      width: auto;
+      height: auto;
+      }
   }
 
   .quote {
