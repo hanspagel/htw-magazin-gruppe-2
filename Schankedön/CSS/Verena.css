@@ -17,14 +17,6 @@ p {
   margin-left: -300px;
 }
 
-h1 {
-  font-family: 'Helvetica';
-  font-size: 25px;
-  line-height: 1.6;
-  color: white;
-  text-align: center;
-}
-
 h2 {
   font-family: 'Helvetica';
   font-size: 45px;
@@ -49,7 +41,7 @@ h3 {
   max-width: 400px;
   margin-left: 850px;
   margin-right: auto;
-  text-align: center;
+  text-align: right;
   margin-top: 150px;
 }
 
@@ -64,8 +56,8 @@ h3 {
   max-width: 400px;
   margin-left: 400px;
   margin-right: auto;
-  text-align: center;
-  margin-top: 150px;
+  text-align: left;
+  margin-top: 50px;
 }
 
 .Baum {
@@ -80,8 +72,8 @@ h3 {
   max-width: 400px;
   margin-left: 900px;
   margin-right: auto;
-  text-align: center;
-  margin-top: 150px;
+  text-align: right;
+  margin-top: 50px;
 }
 
 .Auge {
@@ -93,68 +85,111 @@ h3 {
 
 }
 
-.Fetisch4 {
-  max-width: 400px;
-  margin-left: 400px;
-  margin-right: auto;
-  text-align: center;
-  margin-top: 150px;
-}
-
-.Bienen {
-  max-width: 1000px;
-  margin-right: 700px;
-  width: 400%;
-  margin-top: -150px;
-}
-
 .Fetisch5 {
   max-width: 400px;
   margin-left: 900px;
   margin-right: auto;
-  text-align: center;
-  margin-top: 150px;
+  text-align: right;
+ margin-top: -100px;
+}
+
+.Uterus {
+  max-width: 800px;
+  margin-left: -1200px;
+  width: 400%;
+  margin-top: -200px;
 }
 
 .Fetisch6 {
   max-width: 400px;
-  margin-left: 900px;
+  margin-left: 400px;
   margin-right: auto;
-  margin-top: 150px;
-  text-align: right;
+  text-align: left;
+}
+
+.Teddy {
+  max-width: 800px;
+  margin-left: 500px;
+  width: 120%;
+  margin-top: -250px;
 }
 
 .Fetisch7 {
   max-width: 400px;
-  margin-left: 400px;
+  margin-left: 900px;
   margin-right: auto;
-  margin-top: 150px;
-  text-align: center;
+  text-align: right;
+  margin-top: 50px;
+}
+
+.Bein {
+  max-width: 800px;
+  margin-left: -900px;
+  margin-top: -500px;
+  width: 120%;
+
 }
 
 .Fetisch8 {
   max-width: 400px;
-  margin-left: 900px;
+  margin-left: 400px;
   margin-right: auto;
-  margin-top: 150px;
-  text-align: center;
+  text-align: left;
+  margin-top: 50px;
+}
+
+.Tampon {
+  max-width: 800px;
+  margin-left: 400px;
+  width: 150%;
+  margin-top: -450px;
 }
 
 .Fetisch9 {
   max-width: 400px;
-  margin-left: 400px;
+  margin-left: 900px;
   margin-right: auto;
-  margin-top: 150px;
-  text-align: center;
+  text-align: right;
+  margin-top: 50px;
 }
+
+.Seife {
+  max-width: 800px;
+  margin-left: -1100px;
+  margin-top: -200px;
+  width: 700%;
+}
+
 
 .Fetisch10 {
   max-width: 400px;
-  margin-left: 900px;
+  margin-left: 400px;
   margin-right: auto;
-  margin-top: 150px;
-  text-align: center;
+  text-align: left;
+  margin-top: -150px;
 }
+
+.Clown {
+  max-width: 800px;
+  margin-left: 400px;
+  width: 350%;
+}
+
+
+.Fetisch4 {
+  max-width: 400px;
+  margin-left: 400px;
+  margin-right: auto;
+  text-align: left;
+  margin-top: 50px;
+}
+
+.Bienen {
+  max-width: 800px;
+  margin-right: 0px;
+  width: 150%;
+}
+
 
 img {
   width: 50%;
