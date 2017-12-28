@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+
+
+/* D E S I G N */
+body {
+  background-color: black;
+  overflow-x: hidden;
+  margin: 0;
+}
+
+.menu{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.button{
+  width: auto;
+  text-align: center;
+  top: 0;
+  border: 0em;
+  border-radius: 0em;
+  padding: 3em 16em 3em 16em;
+  margin: auto;
+  margin-top: 3em;
+  font-family: Futura, sans serif;
+  font-size: 0.75em;
+  letter-spacing:0.5em;
+  text-decoration: none;
+}
+
+.bitter {
+background-color: #EDF67D;
+color:#EDF67D;
+
+}
+
+.sauer {
+background-color: #CBF67D;
+color:#CBF67D;
+}
+
+.salzig {
+background-color: #132F09;
+color: #132F09;
+}
+
+.suess {
+background-color: #FFE0F8;
+color: #FFE0F8;
+}
+
+.unami {
+background-color: #F9F311;
+color:#F9F311;
+}
+
+.button:hover {
+  color: red;
+  transition: all 2s;
+}
+
+.button:active {
+}
