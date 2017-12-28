@@ -8,7 +8,7 @@ html {
 }
 
 p {
-  margin-top: 0px;
+  margin-top: -30px;
   font-family: 'Helvetica';
   font-size: 18px;
   line-height: 1.6;
@@ -17,11 +17,9 @@ p {
   margin-left: -300px;
 }
 
-
-
 h2 {
   font-family: 'Helvetica';
-  font-size: 40px;
+  font-size: 45px;
   line-height: 1.6;
   color: #E59089;
   margin-top: 80px;
@@ -41,40 +39,72 @@ h3 {
 
 .Fetisch1 {
   max-width: 400px;
-  margin-left: 400px;
+  margin-left: 850px;
   margin-right: auto;
+  text-align: right;
+  margin-top: 150px;
+}
+
+.Lutscher {
+  max-width: 700px;
+  margin-left: 200px;
+  margin-right: auto;
+  margin-top: -350px;
 }
 
 .Fetisch2 {
   max-width: 400px;
-  margin-left: 900px;
+  margin-left: 400px;
   margin-right: auto;
-  margin-top: -200px;
-  text-align: right;
+  text-align: left;
+  margin-top: 50px;
+}
+
+.Baum {
+  max-width: 800px;
+  margin-left: 400px;
+  margin-right: auto;
+  margin-top: -250px;
+  width: 600%;
 }
 
 .Fetisch3 {
   max-width: 400px;
-  margin-left: 400px;
+  margin-left: 900px;
   margin-right: auto;
-  margin-top: -200px;
-  text-align: left;
+  text-align: right;
+  margin-top: 50px;
+}
+
+.Auge {
+  max-width: 1000px;
+  width: 100%;
+  margin-top: -500px;
+  margin-left: -1000px;
+  width: 150%;
+
 }
 
 .Fetisch4 {
   max-width: 400px;
-  margin-left: 900px;
+  margin-left: 400px;
   margin-right: auto;
-  margin-top: -200px;
-  text-align: right;
+  text-align: left;
+  margin-top: 50px;
+}
+
+.Bienen {
+  max-width: 1000px;
+  margin-right: 700px;
+  width: 400%;
+  margin-top: -150px;
 }
 
 .Fetisch5 {
   max-width: 400px;
-  margin-left: 400px;
+  margin-left: 900px;
   margin-right: auto;
-  margin-top: -200px;
-  text-align: left;
+  text-align: right;
 }
 
 .Fetisch6 {
