@@ -1,24 +1,45 @@
 html {
+  margin-top: 0px;
   font-family: 'Helvetica';
   font-size: 18px;
   line-height: 1.6;
-  color: red;
+  color: black;
+  background-color: white;
 }
 
-h1 {
+p {
+  margin-top: 0px;
   font-family: 'Helvetica';
-  font-weight: bold;
-  margin-top: 2em;
-  margin-bottom: 1em;
-  font-size: 2rem;
+  font-size: 18px;
+  line-height: 1.6;
+  color: black;
+  background-color: white;
+  margin-left: -300px;
 }
 
 
+
+h2 {
+  font-family: 'Helvetica';
+  font-size: 40px;
+  line-height: 1.6;
+  color: #E59089;
+  text-align: left;
+  margin-top: 80px;
+  margin-left: -300px;
+}
+
+h3 {
+  font-family: 'Helvetica';
+  font-size: 40px;
+  line-height: 1.6;
+  color: #E59089;
+  text-align: left;
+  margin-top: 80px;
+  margin-left: -300px;
+}
 /* NOTE: erster Paragraph groß */
 
-p:first-of-type {
-  font-size: 1.4rem;
-}
 
 .article-inner {
   max-width: 700px;
@@ -26,114 +47,25 @@ p:first-of-type {
   margin-right: auto;
 }
 
-.article-inner-wide {
-  max-width: 850px;
-  margin-left: auto;
-  margin-right: auto;
-}
 
-.article-image img {
-  width: 100%;
-}
-
-.article-module {
-  margin-top: 4em;
-  margin-bottom: 4em;
-}
-
-.article-info {
-  background-color: blue;
-  float: right;
-  wide: 12rem;
-  padding: 1rem 1.3rem;
-  margin-left: 1rem;
-  margin-bottom: 1rem;
-  border: 5px solid black;
-
-  box-shadow: 10px 10px 20px 0 black
-}
-
-.article-teaser-image img {
-  width: 100%;
+img {
+  width: 50%;
   height: auto;
 }
 
-.article-related .article-inner-wide {
-  display: flex;
-}
-
-.article-teaser {
-  margin: 1rem;
-  text-decoration: none;
-  color: red;
-  background-color: yellow;
-}
-
-.article-teaser:hover{
-  background-color: red;
-  transform:rotate(3deg) scale(1.2);
-}
-
-.article-teaser-headline{
-  padding: 0.5rem 1rem 1.5rem 1rem;
-  }
-
-.article-graphic {
-  text-align: center;
-}
-
-.animated-eye {
-   animation: wobble 1s infinite alternate;
-   transform-origin: center;
-}
-
-@keyframes wobble {
-  0% {
-    fill: green;
-  }
-
-  25% {
-    fill: orange;
-  }
-
-  50% {
-    fill: turquoise;
-  }
-
-  75% {
-    fill: red;
-  }
-
-  to {
-    transform: scale(1.2);
-  }
-}
-
-.animated-face {
-  animation: drehen 30s infinite;
-  transform-origin: center;
-}
-
-@keyframes drehen{
-  to {
-    transform: rotate(360deg);
-  }
-}
-body {
-  margin: 0;
-}
 
 .article-stage {
-  background-image: url(irgendwas.jpeg);
+  background-image: url(nippell.svg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
   padding: 1rem;
-  height: 100vh;
+  height: 60vh;
   text-align: center;
   display: flex;
   align-items: center;
-  color: red;
+  color: white;
+  font-size: 22px;
   position:relative;
 }
 
@@ -151,14 +83,6 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-}
-
-.stage-subline {
-  font-size: 1.5rem;
-  font-weight: normal;
-  position: relative;
-
-
 }
 
 .button {
