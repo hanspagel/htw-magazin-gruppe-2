@@ -1,0 +1,434 @@
+html {
+  font-family: 'Bungee', cursive;
+  line-height: 1.6;
+}
+
+body {
+  background-color: #B7CADE/*#A6CFD5 #DDD6CA #D9B5AC;*/
+}
+/* NOTE: bekomme ich hin wenn ich n und tab eintippe */
+h1 {
+  font-family: 'Bungee', cursive;
+  color: white;
+  margin-top: 1.2em;
+  margin-bottom: 1.2em;
+  font-size:6rem;
+  text-align: center;
+  -webkit-animation:colorchange_h1 20s infinite alternate;
+  border-color: colorchange 20s infinite alternate;
+  border: 20px solid;
+}
+
+p:first-of-type {
+  font-size: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-nav {
+text-align: center;
+position: fixed;
+
+}
+
+.main-nav li:hover {
+  /*background-image: image();*/
+  transform: rotate(-9deg) scale(1);
+}
+
+.main-nav ul{
+  display: inline-block;
+  margin-top: -75px;
+  width: 100%;
+  background-color: #B7CADE;
+}
+
+.main-nav li{
+  float: left;
+  margin-left: 15px;
+  margin-right: 15px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.main-nav a{
+  display: inline-block;
+  text-align: center;
+  padding: 10px 15px;
+  text-decoration: none;
+  text-align: center;
+  ffont-family: 'Bungee', cursive;
+  font-size: 47.5px;
+  -webkit-animation:colorchange_h1 20s infinite alternate;
+  border-color: colorchange 20s infinite alternate;
+}
+
+/*-webkit-animation:colorchange_h1 20s infinite alternate;
+border-color: colorchange 20s infinite alternate;*/
+
+
+.rahmen{
+  font-family: 'Roboto Mono', monospace;
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 1.2em;
+  margin-bottom: 1.2em;
+  /*
+  -webkit-animation:colorchange_h1 20s infinite alternate;
+  border-color: colorchange 20s infinite alternate;
+  border: 5px solid;*/
+}
+
+p{
+  font-family: 'Roboto Mono', monospace;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 15px;
+
+  /*background-image: url('giphy.gif');*/
+}
+
+
+.sweetstuff-inner{
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.article-inner {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.article-inner-wide{
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.article-module img{
+  width: 100%;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+
+
+/*.awesome {
+
+  font-family: 'Permanent Marker', cursive;
+  width:100%;
+  margin: 0 auto;
+  text-align: center;
+
+  color:#313131;
+  font-size:45px;
+  font-weight: bold;
+  position: absolute;
+  -webkit-animation:colorchange 20s infinite alternate;
+}*/
+
+.center {
+  margin: 0 auto;
+}
+
+.awesome {
+
+  font-family: 'Bungee', cursive;
+
+  width:100%;
+
+  margin: 0 auto;
+  text-align: center;
+
+  color:#313131;
+  font-size:45px;
+  font-weight: bold;
+  background-image: url('giphy.gif');
+  /*position: absolute;*/
+  -webkit-animation:colorchange 20s infinite alternate;
+}
+
+.nyancat {
+    width: 33%;
+    float: left;
+    max-width: 200px;
+}
+
+/*a{
+  font-family: 'Permanent Marker';
+  font-size: 25pt;
+  text-align: center;
+  text-decoration: none;
+  -webkit-animation:colorchange_h1 20s infinite alternate;
+  color: colorchange_h1 20s infinite alternate;
+}*/
+
+
+.article-teaser {
+  display: block;
+  transition: all 0.4s;
+}
+
+.article-teaser:hover {
+  /*background-image: image();*/
+  transform: rotate(-12deg) scale(1.2);
+}
+
+.article-teaser-image {
+  text-align: center;
+  max-width: 6000px;
+}
+
+.article-teaser-headline {
+  text-align: center;
+  font-family: 'Bungee', cursive;
+  font-size: 2rem;
+}
+
+.article-graphic{
+  text-align: center;
+}
+
+.animated-eye{
+  animation: wobble 1s infinite alternate;
+  transform-origin: center;
+}
+
+@keyframes wobble {
+  to {
+  transform:scale(0.6);
+  fill:blue;
+  }
+}
+
+.animated-face{
+  animation: drehen 2s infinite;
+  transform-origin: center;
+}
+
+.article-stage-cat{
+  background-image: url('catipsum.gif');
+  padding: 1rem;
+  height: 50vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  /*align-items: flex-end;*/
+  color: white;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+  margin-top: 200px;
+}
+
+.article-stage-candy{
+  background-image: url(https://media.giphy.com/media/rlxvBFLZda9vW/giphy.gif);
+  padding: 1rem;
+  height: 50vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  /*align-items: flex-end;*/
+  color: white;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+  margin-top: 200px;
+}
+
+.article-stage-cosmos{
+  background-image: url('cosmosipsum.gif');
+  padding: 1rem;
+  height: 50vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  /*align-items: flex-end;*/
+  color: white;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+  margin-top: 200px;
+}
+
+
+/*.article-stage::before {
+  content: '';
+  background: linear-gradient(0, black, transparent);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}*/
+
+.stage-headline{
+  font-family: 'Bungee', cursive;
+  font-weight: normal;
+  font-size: 3rem;
+  line-height: 1.3;
+  position: relative;
+}
+
+.stage-subline{
+  font-size: 1.2rem;
+  position: relative;
+}
+
+body{
+  margin: 0;
+}
+
+@keyframes drehen {
+  to{
+    transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes colorchange {
+  0% {
+    color: blue;
+  }
+
+  10% {
+    color: #8e44ad;
+  }
+
+  20% {
+    color: #1abc9c;
+  }
+
+  30% {
+    color: #d35400;
+  }
+
+  40% {
+    color: blue;
+  }
+
+  50% {
+    color: #34495e;
+  }
+
+  60% {
+    color: blue;
+  }
+
+  70% {
+    color: #2980b9;
+  }
+
+  80% {
+    color: #f1c40f;
+  }
+
+  90% {
+    color: #2980b9;
+  }
+
+  100% {
+    color: pink;
+  }
+}
+
+@-webkit-keyframes colorchange_h1 {
+  0% {
+    color: blue;
+  }
+
+  5% {
+    color: #8e44ad;
+  }
+
+  10% {
+    color: #1abc9c;
+  }
+
+  15% {
+    color: #d35400;
+  }
+
+  20% {
+    color: blue;
+  }
+
+  25% {
+    color: #34495e;
+  }
+
+  30% {
+    color: blue;
+  }
+
+  35% {
+    color: #2980b9;
+  }
+
+  40% {
+    color: #f1c40f;
+  }
+
+  45% {
+    color: #2980b9;
+  }
+
+  50% {
+    color: pink;
+  }
+
+  55% {
+    color: blue;
+  }
+
+  60% {
+    color: #8e44ad;
+  }
+
+  65% {
+    color: #1abc9c;
+  }
+
+  70% {
+    color: #d35400;
+  }
+
+  75% {
+    color: blue;
+  }
+
+  80% {
+    color: #34495e;
+  }
+
+  85% {
+    color: blue;
+  }
+
+  90% {
+    color: #2980b9;
+  }
+
+  95% {
+    color: #f1c40f;
+  }
+
+  100% {
+    color: #2980b9;
+  }
+}
+
+/* Start http://www.cursors-4u.com */ body, a:hover {cursor: url(http://cur.cursors-4u.net/nature/nat-10/nat927.ani), url(http://cur.cursors-4u.net/nature/nat-10/nat927.png), progress !important;} /* End http://www.cursors-4u.com */

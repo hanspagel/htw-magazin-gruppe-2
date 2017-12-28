@@ -24,7 +24,6 @@ h2 {
   font-size: 40px;
   line-height: 1.6;
   color: #E59089;
-  text-align: left;
   margin-top: 80px;
   margin-left: -300px;
 }
@@ -34,19 +33,81 @@ h3 {
   font-size: 40px;
   line-height: 1.6;
   color: #E59089;
-  text-align: left;
   margin-top: 80px;
   margin-left: -300px;
 }
 /* NOTE: erster Paragraph groß */
 
 
-.article-inner {
-  max-width: 700px;
-  margin-left: auto;
+.Fetisch1 {
+  max-width: 400px;
+  margin-left: 400px;
   margin-right: auto;
 }
 
+.Fetisch2 {
+  max-width: 400px;
+  margin-left: 900px;
+  margin-right: auto;
+  text-align: right;
+}
+
+.Fetisch3 {
+  max-width: 700px;
+  margin-left: 400px;
+  margin-right: auto;
+  text-align: left;
+}
+
+.Fetisch4 {
+  max-width: 700px;
+  margin-left: 600px;
+  margin-right: auto;
+  text-align: right;
+}
+
+.Fetisch5 {
+  max-width: 700px;
+  margin-left: 400px;
+  margin-right: auto;
+  text-align: left;
+}
+
+.Fetisch6 {
+  max-width: 700px;
+  margin-left: 600px;
+  margin-right: auto;
+  text-align: right;
+}
+
+.Fetisch7 {
+  max-width: 700px;
+  margin-left: 400px;
+  margin-right: auto;
+  text-align: left;
+}
+
+.Fetisch8 {
+  max-width: 700px;
+  margin-left: 600px;
+  margin-right: auto;
+  text-align: right;
+}
+
+
+.Fetisch9 {
+  max-width: 700px;
+  margin-left: 400px;
+  margin-right: auto;
+  text-align: left;
+}
+
+.Fetisch10 {
+  max-width: 700px;
+  margin-left: 600px;
+  margin-right: auto;
+  text-align: right;
+}
 
 img {
   width: 50%;
