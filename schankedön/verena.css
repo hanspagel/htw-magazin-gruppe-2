@@ -17,6 +17,16 @@ p {
   margin-left: -300px;
 }
 
+h1{
+  font-family: 'Helvetica';
+  font-weight: lighter;
+  font-size: 24px;
+  text-align: center;
+  color: white;
+  max-width: 800px;
+  margin-left: 300px;
+}
+
 h2 {
   font-family: 'Helvetica';
   font-size: 45px;
@@ -87,34 +97,50 @@ h3 {
 
 .Fetisch5 {
   max-width: 400px;
-  margin-left: 900px;
+  margin-left: 400px;
   margin-right: auto;
-  text-align: right;
- margin-top: -100px;
+  text-align: left;
 }
 
-.Uterus {
+.Clown {
   max-width: 800px;
-  margin-left: -1200px;
+  margin-left: 500px;
   width: 400%;
   margin-top: -200px;
 }
 
 .Fetisch6 {
   max-width: 400px;
-  margin-left: 400px;
+  margin-left: 900px;
   margin-right: auto;
-  text-align: left;
+  text-align: right;
+  margin-top: 50px;
 }
 
 .Teddy {
   max-width: 800px;
-  margin-left: 500px;
-  width: 120%;
+  margin-left: -1000px;
   margin-top: -250px;
+  width: 120%;
 }
 
 .Fetisch7 {
+  max-width: 400px;
+  margin-left: 400px;
+  margin-right: auto;
+  text-align: left;
+  margin-top: 50px;
+}
+
+.Uterus {
+  max-width: 800px;
+  margin-left: 500px;
+  margin-top: -250px;
+  width: 200%;
+
+}
+
+.Fetisch8 {
   max-width: 400px;
   margin-left: 900px;
   margin-right: auto;
@@ -124,28 +150,28 @@ h3 {
 
 .Bein {
   max-width: 800px;
-  margin-left: -900px;
-  margin-top: -500px;
-  width: 120%;
-
+  margin-left: -800px;
+  width: 100%;
+  margin-top: -400px;
 }
 
-.Fetisch8 {
+.Fetisch9 {
   max-width: 400px;
   margin-left: 400px;
   margin-right: auto;
   text-align: left;
-  margin-top: 50px;
+  margin-top: -50px;
 }
 
 .Tampon {
   max-width: 800px;
   margin-left: 400px;
-  width: 150%;
   margin-top: -450px;
+  width: 150%;
 }
 
-.Fetisch9 {
+
+.Fetisch4 {
   max-width: 400px;
   margin-left: 900px;
   margin-right: auto;
@@ -153,41 +179,11 @@ h3 {
   margin-top: 50px;
 }
 
-.Seife {
-  max-width: 800px;
-  margin-left: -1100px;
-  margin-top: -200px;
-  width: 700%;
-}
-
-
-.Fetisch10 {
-  max-width: 400px;
-  margin-left: 400px;
-  margin-right: auto;
-  text-align: left;
-  margin-top: -150px;
-}
-
-.Clown {
-  max-width: 800px;
-  margin-left: 400px;
-  width: 350%;
-}
-
-
-.Fetisch4 {
-  max-width: 400px;
-  margin-left: 400px;
-  margin-right: auto;
-  text-align: left;
-  margin-top: 50px;
-}
-
 .Bienen {
   max-width: 800px;
-  margin-right: 0px;
-  width: 150%;
+  margin-left: -1100px;
+  margin-top: -150px;
+  width: 200%;
 }
 
 
