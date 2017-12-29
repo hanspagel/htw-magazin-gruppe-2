@@ -5,7 +5,7 @@ html {
 }
 
 .button {
- font-size: 800px;
+ font-size: 80px;
  font-family:'Helvetica';
  color: white;
  margin-top: 400px;
@@ -21,13 +21,6 @@ html {
 .button:hover {
  box.shadow: none;
  position: relative;
- top: 800px;
- left: 800px;
-}
-
-.Fetishes2 {
-  width: 800px;
-  height: 800px;
-  text-align: center;
-
+ top: 5px;
+ left: 5px;
 }
