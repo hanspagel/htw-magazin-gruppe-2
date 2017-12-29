@@ -1,0 +1,26 @@
+html {
+  margin-top: 300px;
+  margin-left: 0px;
+  background-color: #E59089;
+}
+
+.button {
+ font-size: 80px;
+ font-family:'Helvetica';
+ color: white;
+ margin-top: 400px;
+ margin-left: 500px;
+ cursor: url(cursor.png), pointer;
+ text-decoration: none;
+}
+
+.button:focus {
+  outline: 1px dashed white;
+}
+
+.button:hover {
+ box.shadow: none;
+ position: relative;
+ top: 5px;
+ left: 5px;
+}
