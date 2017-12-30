@@ -106,9 +106,9 @@ hr {
 }
 
 
-/* NOTE: noch ändern oder weglassen: Infobox */
+/* NOTE: INFOBOX */
 .article-text-info {
-  font-family: 'Akzidenz-Grotesk Pro', 'Arimo', sans-serif;
+  font-family: 'Akzidenz-Grotesk Pro', sans-serif;
   font-size: 1.5rem;
   color: white;
   font-weight: normal;
@@ -119,6 +119,7 @@ hr {
   margin-left: 20px;
   margin-right: 0px;
   padding: 10px;
+  text-align: center;
   justify-content: space-around;
   animation: start 3s infinite alternate;
 }
