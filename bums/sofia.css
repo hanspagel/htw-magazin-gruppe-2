@@ -1,41 +1,44 @@
 html {
-  font-family:'PT Serif', serif;
+  font-family:'Akzidenz-Grotesk Pro', sans-serif;
   font-size: 18px;
   line-height: 1.6;
   color: black;
+  text-align: justify;
 }
 
 @media all and (max-width: 800px) {
 
   html {
     font-size: 10px;
+    text-align: justify;
   }
 
 }
 
-h1 {
-  font-family: 'Arimo', sans-serif;
-  font-weight: bold;
-  margin-top: 2em;
-  margin-bottom: 1em;
-  font-size: 2.5rem;
-  color: black;
-}
 
 @media all and (min-width: 600px) {
 
-  h1 {
-    font-family: "bodoni";
-  }
+
+h1 {
+  font-family: "MatrixWide",'Arimo', sans-serif;
+  font-weight: bold;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  font-size: 2.0rem;
+  color: black;
+  text-align: center;
 }
 
+
+
 h2 {
-  font-family: 'Akzidenz-Grotesk Pro', 'Arimo', sans-serif;
+  font-family: "MatrixWide", 'Akzidenz-Grotesk Pro', 'Arimo', sans-serif;
   font-weight: normal;
   margin-top: 2em;
   margin-bottom: 1em;
   font-size: 1.5rem;
-  color: white;
+  color: #CC33CC;
+  text-align: center;
 }
 
 h3 {
@@ -43,22 +46,31 @@ h3 {
   font-weight: normal;
   margin-top: 2em;
   margin-bottom: 1em;
-  font-size: 1rem;
-  color: #FF7F50;
+  font-size: 1.5rem;
+  color: #FF33FF;
+  text-align: center;
 }
 
 h5 {
-  font-family: "Denver-Serial-ExtraBold", "Akzidenz-Grotesk Pro", serif;
+  font-family: "MatrixWide", "Denver-Serial-ExtraBold", "Akzidenz-Grotesk Pro", serif;
   font-weight: bold;
   font-size: 3rem;
+  color: white;
+  text-align: center;
+}
+
+hr {
+  background-color: none;
+  text-align:right;
+  border: dotted #FF33FF;
 }
 
 .toolbar-left a {
   font-family: 'Akzidenz-Grotesk Pro', 'Arimo', sans-serif;
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: white;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: normal;
 }
 
 .article-animated {
@@ -93,15 +105,36 @@ h5 {
   margin-right: auto;
 }
 
+
+/* NOTE: INFOBOX */
 .article-text-info {
-  background-color: #FF7F50;
+  font-family: 'Akzidenz-Grotesk Pro', sans-serif;
+  font-size: 1.5rem;
+  color: white;
+  font-weight: normal;
   float: right;
-  width: 10rem;
-  padding: 2rem 1,5rem;
-  margin-left: 1,5rem;
-  font-family: sans-serif;
-  border: 3px solid #838B83;
+  width: 350px;
+  height: 120px;
+  margin-top: -10px;
+  margin-left: 20px;
+  margin-right: 0px;
+  padding: 10px;
+  text-align: center;
+  justify-content: space-around;
+  animation: start 3s infinite alternate;
 }
+
+@keyframes start {
+  10% {background-color: #EE3B3B;}
+  20% {background-color: #FFFF00;}
+  30% {background-color: #EE7942;}
+  50% {background-color: #D02090;}
+  70% {background-color: #551A8B;}
+  90% {background-color: #00CDCD;}
+  100% {background-color: #191970;}
+  0% {background-color: #EEB4B4;}
+}
+
 
 .article-teaser {
   display: flex;
@@ -142,9 +175,11 @@ h5 {
 
 .toolbar-left {
   float: left;
-  width: 250px;
-  height: 300px;
-  top: 700px;
+  width: 170px;
+  height: 150px;
+  margin-top: 100px;
+  margin-left: 100px;
+  padding: 5px;
   justify-content: space-around;
   background-color: lightgreen;
   animation: start 3s infinite alternate;
@@ -163,7 +198,7 @@ h5 {
 
 
 a:hover {
-  color: black;
+  color: #CC33CC;
 }
 
 .hintergrundoben {
@@ -344,7 +379,7 @@ source {
 
 
 .button {
-/* NOTE: hello and welcome */
+/* NOTE: press the button and fly */
 font-family: 'Akzidenz-Grotesk Pro','Arimo', sans-serif;
 font-size: 2.5rem;
 color: white;
@@ -353,13 +388,13 @@ padding: 5px;
 border: 10px;
 border-radius: 20;
 border-color: purple;
-font-weight: bold;
+font-weight: normal;
 text-align: center;
 display: flex;
 }
 
 .button:hover {
-  color: black;
+  color: #CC33CC;
   font-size: 4rem;
   cursor: pointer;
 }
@@ -392,7 +427,7 @@ display: flex;
 
 
 body {
-  cursor: url(xxx.png), pointer;
+  cursor: wait, url(120px-Acid2_reference.png), pointer;
 }
 
 
@@ -470,7 +505,7 @@ body {
 }
 
 .quaqua {
-  background-color: #F5F5F5;
+  background-color: #CCFFCC;
   opacity: 0.9;
   padding: 1rem;
   position: fixed;
@@ -488,10 +523,12 @@ body {
   top: 80px;
   bottom: 10px;
   color: white;
-  background-size: cover;
+  background-size: 600px;
   background-position: center;
   background-attachment: fixed;
   min-height: 50vh;
+  left: auto;
+  right: auto;
   text-align: center;
   display: flex;
   align-items: center;
@@ -505,8 +542,10 @@ body {
 }
 
 [data-aos="banane"].aos-animate {
-  filter: blur(0);
+  filter: blur(400px);
   transform: rotate(0);
+  transform: scale3d(200);
+  transition-property: transform;
 }
 
 
