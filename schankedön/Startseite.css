@@ -1,29 +1,13 @@
 html {
-  margin-top: 300px;
-  margin-left: 0px;
-  background-color: white;
+margin-top: 300px;
+margin-left: 0px;
+background-color: white;
 }
 
-.button {
- font-size: 80px;
- font-family:'Helvetica';
- color: white;
- margin-top: 400px;
- margin-left: 500px;
- text-decoration: none;
-}
-
-
-.button:hover {
- box.shadow: none;
- position: relative;
- top: 5px;
- left: 5px;
-}
 
 img {
-  width:700px;
-  height:auto;
-  margin-left: 400px;
-  margin-top: -250px;
+width:800px;
+height:auto;
+margin-left: 300px;
+margin-top: -300px;
 }
