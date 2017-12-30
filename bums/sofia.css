@@ -20,7 +20,7 @@ html {
 
 
 h1 {
-  font-family: 'Arimo', sans-serif;
+  font-family: "MatrixWide",'Arimo', sans-serif;
   font-weight: bold;
   margin-top: 2em;
   margin-bottom: 1em;
@@ -67,10 +67,10 @@ hr {
 
 .toolbar-left a {
   font-family: 'Akzidenz-Grotesk Pro', 'Arimo', sans-serif;
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: white;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: normal;
 }
 
 .article-animated {
@@ -118,6 +118,7 @@ hr {
   margin-top: -10px;
   margin-left: 20px;
   margin-right: 0px;
+  padding: 10px;
   justify-content: space-around;
   animation: start 3s infinite alternate;
 }
@@ -173,9 +174,11 @@ hr {
 
 .toolbar-left {
   float: left;
-  width: 250px;
-  height: 200px;
+  width: 170px;
+  height: 150px;
   margin-top: 100px;
+  margin-left: 100px;
+  padding: 5px;
   justify-content: space-around;
   background-color: lightgreen;
   animation: start 3s infinite alternate;
@@ -375,7 +378,7 @@ source {
 
 
 .button {
-/* NOTE: hello and welcome */
+/* NOTE: press the button and fly */
 font-family: 'Akzidenz-Grotesk Pro','Arimo', sans-serif;
 font-size: 2.5rem;
 color: white;
@@ -384,13 +387,13 @@ padding: 5px;
 border: 10px;
 border-radius: 20;
 border-color: purple;
-font-weight: bold;
+font-weight: normal;
 text-align: center;
 display: flex;
 }
 
 .button:hover {
-  color: black;
+  color: #CC33CC;
   font-size: 4rem;
   cursor: pointer;
 }
@@ -423,7 +426,7 @@ display: flex;
 
 
 body {
-  cursor: url(xxx.png), pointer;
+  cursor: wait, url(120px-Acid2_reference.png), pointer;
 }
 
 
