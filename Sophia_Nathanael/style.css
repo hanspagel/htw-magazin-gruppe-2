@@ -46,7 +46,7 @@ body, a:hover {cursor: url(http://cur.cursors-4u.net/user/use-1/use168.cur), pro
         font-size: 18px;
         line-height: 22px;
         letter-spacing: 2px;
-        color: #727272;
+        color: #9a9a9a;
         text-align: left;
       }
     }
@@ -56,17 +56,17 @@ body, a:hover {cursor: url(http://cur.cursors-4u.net/user/use-1/use168.cur), pro
         font-size: 22px;
         line-height: 24px;
         letter-spacing: 2px;
-        color: #727272;
+        color: #9a9a9a;
         text-align: left;
       }
     }
 
   @media all and (min-width: 1200px) {
     p {
-        font-size: 22px;
+        font-size: 20px;
         line-height: 24px;
         letter-spacing: 2px;
-        color: #727272;
+        color: #9a9a9a;
         text-align: left;
       }
     }

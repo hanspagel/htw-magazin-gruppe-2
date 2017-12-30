@@ -1,0 +1,73 @@
+html {
+  font-family: 'Anonymous Pro', monospace
+}
+
+.images {
+  position: relative;
+}
+
+
+@media all and (min-width: 375px) {
+  .text-field {
+    padding: 50px;
+    width: 85%;
+    height: auto;
+    position: relative;
+    float: left;
+    }
+  }
+
+@media all and (min-width: 768px) {
+  .text-field {
+    padding: 50px;
+    width: 35%;
+    height: auto;
+    position: relative;
+    float: left;
+    }
+  }
+
+@media all and (min-width: 1200px) {
+  .text-field {
+    padding: 50px;
+    width: 25%;
+    height: auto;
+    position: relative;
+    float: left;
+    }
+  }
+
+h1 {
+  font-family: 'Rubik', sans-serif;
+  font-size: 3em;
+  font-weight: bold;
+  line-height: 0.5em;
+}
+
+h2 {
+  font-family: 'Anonymous Pro', monospace;
+}
+
+@media all and (min-width: 375px) {
+  img {
+    padding: 50px;
+    width: 85%;
+    height: auto;
+    }
+  }
+
+@media all and (min-width: 768px) {
+  img {
+    padding: 50px;
+    width: 35%;
+    height: auto;
+    }
+  }
+
+@media all and (min-width: 1200px) {
+  img {
+    padding: 50px;
+    width: 25%;
+    height: auto;
+    }
+  }
