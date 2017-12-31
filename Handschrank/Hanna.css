@@ -11,7 +11,10 @@ html{
 
 body {
   cursor: url(Klobuerste-for-real.png), default;
+<<<<<<< HEAD
   overflow-x: hidden; 
+=======
+>>>>>>> 55bb935676d426f199c659b9e1b031559caa8f81
 }
 
 .stoerer {
@@ -24,7 +27,11 @@ h1{
   font-weight: normal;
   margin-top: 1em;
   font-size: 7rem;
+<<<<<<< HEAD
   color: #D8B445;
+=======
+  color: yellow;
+>>>>>>> 55bb935676d426f199c659b9e1b031559caa8f81
   text-decoration: none;
   letter-spacing: 0.1em;
 
@@ -117,26 +124,43 @@ h1{
 }
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 55bb935676d426f199c659b9e1b031559caa8f81
 .article-related .article-inner {
   display: flex;
 }
 .article-stage{
+<<<<<<< HEAD
   background-image: url(Hansi2.jpg);
   background-size: cover;
+=======
+  background-image: url(Hansi4.jpg);
+  background-repeat:no-repeat;
+  background-size: 70%;
+>>>>>>> 55bb935676d426f199c659b9e1b031559caa8f81
   background-position: center;
   padding: 3rem;
   height: 70vh;
   text-align:center;
   display:flex;
   align-items: center;
+<<<<<<< HEAD
   color:white;
+=======
+  color: yellow;
+>>>>>>> 55bb935676d426f199c659b9e1b031559caa8f81
   position:relative;
 }
 
 .article-stage::before{
+<<<<<<< HEAD
 content:'';
 background:linear-gradient(0deg, black, transparent 40%);
+=======
+background:linear-gradient(0deg, black, transparent 40%)
+>>>>>>> 55bb935676d426f199c659b9e1b031559caa8f81
 position: absolute;
 top:0;
 left:0;
@@ -183,7 +207,11 @@ body {
 .article-interactive {
   text-align: center;
   min-height: 50vh;
+<<<<<<< HEAD
   background-color: yellow;
+=======
+  background-color: #FF8AD0;
+>>>>>>> 55bb935676d426f199c659b9e1b031559caa8f81
   display:flex;
   align-items: center;
 }
