@@ -1,0 +1,500 @@
+html{
+  font-family: 'Futura';
+  font-weight: lighter;
+  background-color: white;
+  font-size: 10px;
+  line-height: 1.6;
+  color: #333333;
+  background-image: url(Wand.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+
+}
+
+body {
+  overflow-x: hidden;
+  margin-left: 0;
+  margin-right: 0;
+  cursor:url(Maus.png), default;
+}
+
+
+
+@media all and (min-width: 600px) {
+  html {
+    font-size:15px;
+  }
+}
+
+
+h1{
+  font-family: 'Futura';
+  font-weight: bold;
+  font-style: italic;
+  margin-top: -10.7em;
+  margin-bottom: 9.2em;
+  font-size: 3rem;
+  letter-spacing: 0.6em;
+  color: black;
+
+}
+
+h2{
+  font-family: 'Futura';
+  font-weight: bold;
+  color: yellow;
+  font-style: italic;
+  margin-top: -13em;
+  margin-bottom: 20em;
+  font-size: 1.2rem;
+  letter-spacing: 0.2em;
+}
+
+body{
+  margin-top: 10em;
+}
+
+.Textcontainer {
+  font-size: 16px;
+  margin-top: -5px;
+  margin-bottom: 12em;
+}
+
+
+.article-text:first-of-type p:first-of-type {
+  font-size:1.4rem;
+}
+
+.article-module{
+  margin-top: 4em;
+  margin-bottom: 4em;
+}
+
+.article-inner{
+  max-width:900px;
+  margin-left: auto;
+  margin-right: auto;
+  position:relative;
+}
+
+.article-inner2{
+  max-width:900px;
+  margin-left: auto;
+  margin-right: auto;
+  position:relative;
+  margin-bottom: 15rem;
+}
+
+
+.article-inner-wide {
+  max-width:800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.article-image {
+  text-align: center;
+}
+
+.article-image img {
+  width: 50%;
+}
+
+.Banane {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50rem;
+}
+
+.Banane1{
+  background-color: #FF8AD0;
+  float:right;
+  width: 300rem;
+  height: 25rem;
+  margin-left: 10rem;
+  margin-top: 10rem;
+  margin-bottom: 1rem;
+  border: 5px dotted black;
+  border-radius: 300px;
+  font-family: 'Futura';
+}
+
+.article-info{
+  background-color: white;
+  font-weight: normal;
+  float:inherit;
+  width: 30rem;
+  height: 30rem;
+  margin: 0px auto;
+  border: 4px black;
+  border-style: dotted;
+  border-radius: 300px;
+  border-color: #FF8AD0;
+  animation-name: orbit;
+  animation-duration: 0.7s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  }
+
+
+
+
+
+
+.article-info:hover{
+  animation-name: orbit1;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+  @keyframes orbit {
+
+  from
+  { transform:rotate(0deg) }
+  to
+  { transform:rotate(360deg) }
+
+  }
+
+
+  @keyframes orbit1 {
+
+  from
+  { transform:rotate(0deg) }
+  to
+  { transform:rotate(0deg) }
+
+  }
+
+
+
+
+
+.article-info2{
+  background-color: white;
+  float:inherit;
+  width: 30rem;
+  height: 30rem;
+  margin: 0px auto;
+  border: 10px black;
+  border-style: dotted;
+  border-radius: 300px;
+  border-color: yellow;
+}
+
+.article-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.Textverschieben{
+  margin-top:100px;
+  color: black;
+
+
+}
+.Textverschieben2{
+  margin-top:100px;
+  color: black;
+}
+
+.Banane3 {
+  text-align: left;
+}
+
+.article-teaser-image img{
+  width: 100%;
+  height: auto;
+
+}
+
+.article-related .article-inner {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 200px;
+  margin-top: 17rem;
+}
+
+.article-teaser {
+  width: 30rem;
+  margin: 1rem;
+  text-decoration: none;
+  color: black;
+  background-color: yellow;
+  transition: all 1s;
+}
+
+
+.article-teaser:hover {
+  background-color: #FF8AD0;
+  filter:none;
+  color: yellow;
+  transform:scale(1.1);
+}
+
+.article-teaser-image:hover {
+  filter:none;
+}
+
+
+
+.article-teaser-headline {
+  padding: 3rem 1rem 15rem 1rem;
+  margin-top: 0.5rem;
+  font-family: 'Futura';
+  font-style: italic;
+}
+
+.article-teaser-image {
+  margin-top: 10rem;
+  filter: gray;
+  -webkit-filter: grayscale(1);
+  -webkit-filter: grayscale(100%);
+  filter: url(resources.svg#desaturate);
+  filter: grayscale(100%);
+}
+
+.article-graphic {
+text-align: center;
+}
+
+
+.animated-face3 {
+animation: drehen 2s infinite;
+transform-origin: center;
+animation-timing-function: linear;
+}
+
+@keyframes drehen {
+  from {
+    transform: rotate(0deg);
+
+  }
+
+  to {
+    transform: rotate(360deg);
+
+
+  }
+}
+
+.buerste {
+  animation: farbe 3s infinite;
+  transform-origin: center;
+  animation-timing-function: linear;
+}
+
+@keyframes farbe {
+  0% {
+    fill:yellow;
+  }
+  25% {
+    fill:#FF8AD0;
+  }
+  50% {
+    fill:yellow;
+  }
+  75% {
+    fill:#FF8AD0;
+  }
+  100% {
+    fill:yellow;
+  }
+}
+
+.graphic{
+  margin-top:-100px;
+  margin-bottom:80px;
+  position:relative;
+}
+
+.Box{
+  background-color: yellow;
+  position:relative;
+  margin-top: -18rem;
+  margin-bottom: 10rem;
+  height: 30px;
+  width:100%;
+}
+
+
+
+.article-related a {
+cursor: url(Maus.png), default;
+}
+
+
+
+.button {
+  /* NOTE: vorder border-radius: 0 background-color, font-size */
+  background-color: yellow;
+  padding: 50px 20px;
+  color: black;
+  font-size: 15px;
+  font-family: 'Futura';
+  border-radius: 200px;
+}
+
+.button:hover {
+  position:relative;
+  background-color: transparent;
+  cursor:url(Maus.png), default;
+}
+
+.article-interactive {
+  min-height: 50vh;
+  background: #FF8AD0;
+  display: flex;
+  align-items: center;
+  margin-bottom: 16rem;
+  background-color: #FF8AD0;
+  background-size: cover;
+
+}
+
+
+
+
+
+.action
+{
+  background: url(giphy-downsized.gif);
+
+}
+
+.header {
+  background: black;
+  padding: 1rem;
+  position: fixed;
+  right: 0;
+  top: 0;
+  left: 0;
+  z-index: 81;
+}
+
+.header-logo {
+  color: yellow;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 25px;
+
+}
+
+[data-aos="wurst"] {
+  filter: blur(100px);
+  transition-property:all;
+}
+
+[data-aos="wurst"].aos-animate {
+  filter: blur(0px);
+}
+
+.krassegifs {
+  background-image: url(200w_d.gif);
+  min-height: 100vh;
+  margin-top:-100px;
+  margin-bottom:90px;
+
+}
+
+.bescheid {
+  display: inline-block;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  -webkit-transition-duration: 2.5s;
+  transition-duration: 2.5s;
+  color: black;
+  background:black;
+
+
+}
+.bescheid:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #FAFAFA;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: 100% 50%;
+  transform-origin: 100% 50%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 2.5s;
+  transition-duration: 2.5s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.bescheid:hover, .bescheid:focus, .bescheid:active {
+  color: black;
+  cursor:url(Maus.png), default;
+}
+.bescheid:hover:before, .bescheid:focus:before, .bescheid:active:before {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+  -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+  transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+}
+
+
+.header-logo:hover{
+  color: #FF8AD0;
+  cursor:url(Maus.png), default;
+}
+
+
+h1:hover {
+  color: white;
+  text-shadow: 0 0 5px white,
+                 0 0 10px white,
+                 0 0 20px #FF8AD0,
+                 0 0 40px #FF8AD0,
+                 0 0 60px #FF8AD0,
+                 0 0 90px #FF8AD0,
+                 0 0 120px #FF8AD0,
+                 0 0 160px #FF8AD0;
+  cursor:url(Maus.png), default;
+}
+
+
+
+
+
+.article-stage{
+  background-image: url(Hans.gif);
+  background-size:cover;
+  background-position: center;
+  height: 50vh;
+  text-align:center;
+  display:flex;
+  align-items: center;
+  color:white;
+  position:relative;
+
+}
+
+.stage-headline {
+  font-family:'Futura', sans-serif;
+  font-weight: normal;
+  background-color: yellow;
+  font-size: 1.3rem;
+  letter-spacing: 0.3em;
+  position:relative;
+  color: #FF8AD0;
+}
+
+.stage-headline2 {
+  font-family:'Futura', sans-serif;
+  font-weight: normal;
+  font-style: italic;
+  font-size: 0.8rem;
+  letter-spacing: 0.3em;
+  position:relative;
+  color: yellow;
+  margin-top: 40px;
+}

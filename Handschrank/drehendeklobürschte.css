@@ -1,0 +1,53 @@
+html{
+  background-color: white;
+}
+
+
+
+.animated-face3 {
+animation: drehen 5s infinite;
+transform-origin: center;
+animation-timing-function: linear;
+}
+
+@keyframes drehen {
+  from {
+    transform: rotate(0deg) scale(0.1);
+  }
+
+  to {
+    transform: rotate(360deg) scale(0.1);
+  }
+}
+
+.buerste {
+  animation: farbe 12s infinite;
+  transform-origin: center;
+  animation-timing-function: linear;
+}
+
+
+
+@keyframes farbe {
+  0% {
+    fill:yellow;
+  }
+  25% {
+    fill:orange;
+  }
+  50% {
+    fill:red;
+  }
+  75% {
+    fill:blue;
+  }
+  100% {
+    fill:yellow;
+  }
+}
+
+.flexbox{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
